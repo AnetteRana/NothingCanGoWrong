@@ -1,0 +1,32 @@
+C:/Program Files (x86)/ScreenToGif/ffmpeg.exe -hide_banner -y -y -r 1 -start_number 0 -start_number_range 1 -i C:/Users/Rana/Documents/GitHub/NothingCanGoWrong/Content/Assets/2Dassets_introCutscene/BirdImgSequence/frame%04d.png -crf 23 -preset medium -profile:v baseline -pix_fmt yuv420p C:/Users/Rana/Documents/GitHub/NothingCanGoWrong/Content/Assets/introCutsceneMockup.mp4
+=====================================================
+Input #0, image2, from 'C:/Users/Rana/Documents/GitHub/NothingCanGoWrong/Content/Assets/2Dassets_introCutscene/BirdImgSequence/frame%04d.png':
+  Duration: 00:00:00.84, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1004x650 [SAR 11811:11811 DAR 502:325], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 07400b00] using SAR=1/1
+[libx264 @ 07400b00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 07400b00] profile Constrained Baseline, level 3.1, 4:2:0, 8-bit
+[libx264 @ 07400b00] 264 - core 161 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=1 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'C:/Users/Rana/Documents/GitHub/NothingCanGoWrong/Content/Assets/introCutsceneMockup.mp4':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1004x650 [SAR 1:1 DAR 502:325], q=-1--1, 1 fps, 16384 tbn, 1 tbc
+    Metadata:
+      encoder         : Lavc58.91.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   21 fps=0.0 q=-1.0 Lsize=      32kB time=00:00:20.00 bitrate=  13.2kbits/s speed= 105x    
+video:31kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.865419%
+[libx264 @ 07400b00] frame I:1     Avg QP: 2.58  size: 19406
+[libx264 @ 07400b00] frame P:20    Avg QP: 9.56  size:   604
+[libx264 @ 07400b00] mb I  I16..4: 86.6%  0.0% 13.4%
+[libx264 @ 07400b00] mb P  I16..4:  3.6%  0.0%  0.2%  P16..4:  6.4%  0.1%  0.0%  0.0%  0.0%    skip:89.7%
+[libx264 @ 07400b00] coded y,uvDC,uvAC intra: 5.8% 8.8% 5.5% inter: 0.1% 0.7% 0.0%
+[libx264 @ 07400b00] i16 v,h,dc,p: 97%  1%  2%  0%
+[libx264 @ 07400b00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 29% 33%  4%  3%  2%  4%  1%  4%
+[libx264 @ 07400b00] i8c dc,h,v,p: 94%  5%  1%  0%
+[libx264 @ 07400b00] ref P L0:  2.3% 97.6%  0.0%
+[libx264 @ 07400b00] kb/s:12.00
